@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Almendra", serif;
+    font-weight: 400;
+    color: white;
+    font-style: normal;
+    background: #1E213F;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#title{
+    /* background: yellowgreen; */
+    font-size: 64px;
+}
+
+.timer{
+    /* background: pink; */
+    font-size: 240px;
+    margin-bottom: 30px;
+}
+
+.buttons{
+    /* background: gold; */
+    margin-top: 10px;
+}
+
+.buttons #start,#stop,#reset{
+    height: 40px;
+    width: 120px;
+    border-radius: 15px;
+}
+
+#start{
+    margin-right: 20px;
+}
+
+#reset{
+    margin-left: 20px;
+}
